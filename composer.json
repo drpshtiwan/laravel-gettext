@@ -24,15 +24,15 @@
         "issues": "https://github.com/zerospam/laravel-gettext/issues"
     },
     "require": {
-        "php": ">=7.2",
-        "laravel/framework": "^6.0 || ^7.0 || ^8.0 ||^9.0",
-        "laravel/helpers": "^1.1"
+        "php": "^8.0|^8.1|^8.2|^8.3",
+        "laravel/framework": "^9.0 || ^10.0",
+        "laravel/helpers": "^1.6"
     },
     "require-dev": {
         "mockery/mockery": "dev-master",
-        "phpunit/phpunit": "~7.0 || ^8.5 || ^9",
+        "phpunit/phpunit": "^8.5 || ^9 || ^10",
         "squizlabs/php_codesniffer" : "1.5.*",
-        "laravel/laravel": "^6.0 || ^7.0 || ^8.0 ||^9.0",
+        "laravel/laravel": "^6.0 || ^7.0 || ^8.0 ||^9.0 || ^10.0",
         "php-coveralls/php-coveralls": "^2.1"
     },
     "autoload": {
